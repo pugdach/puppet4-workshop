@@ -38,7 +38,7 @@
 
 #start the agent container if needed
 
-	docker run -d --name agent production -t pugberlin/puppet4workshop:puppet4agent_d8 tail -f /dev/null
+	docker run -d --name agent -t pugberlin/puppet4workshop:puppet4agent_d8 tail -f /dev/null
 
 ##connect to the agent container
 
