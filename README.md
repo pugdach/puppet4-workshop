@@ -11,8 +11,8 @@
 
 ##Download the containers
 	
-	docker pull pugberlin/puppet4workshop:puppet4agent_d8 .
-	docker pull pugberlin/puppet4workshop:puppet4master_d8 .
+	docker pull pugberlin/puppet4workshop:puppet4agent_d8
+	docker pull pugberlin/puppet4workshop:puppet4master_d8
 
 ##start the puppetserver container, 
 **replace /somewhere/puppet4-workshop with your checkout**
